@@ -9,8 +9,8 @@ import UIKit
 class LoadingViewController: UIViewController {
 
     @IBOutlet weak var activityView: UIActivityIndicatorView!
-    var userName = ""
-    var amount = 0
+    var userName =jythatgoat2 
+    var amount = 20000
     override func viewDidLoad() {
         super.viewDidLoad()
         Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(timeup), userInfo: nil, repeats: false)
